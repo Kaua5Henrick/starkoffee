@@ -134,3 +134,23 @@ button {
 button:hover {
   background-color: #734747;
 }
+
+@media screen and (max-width:700px) {
+  body{
+     background-color: rgba(54, 24, 24, 1);
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .left{
+    border-radius: 0px;
+  }
+  .right{
+    border-radius: 70px 0px 0px 0px;
+  }
+  input{
+    font-size: 16px;
+  }
+}
