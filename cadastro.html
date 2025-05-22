@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/login.css">
-    <title>Login Starkoffee</title>
+    <link rel="stylesheet" href="estilos/cadastrar.css">
+    <title>Cadastre-se Starkoffee</title>
 </head>
 <body>
 
@@ -30,19 +30,22 @@
          </div>
 
          <div class="right">
-            <h2 class="login-title">Login</h2>
+            <h2 class="cadastrar-title">Cadastre-se</h2>
             <hr class="line">
-            <form action="">
+            <form action="index.html">
                 <label for="nome">Nome</label>
-                <input type="text" id="usuario" name="usuario" required>
-                <label for="senha">Senha</label>
-                <input type="password" id="senha" name="senha" required>
-                <div class="buttons">
-                <button type="submit">Logar</button>
-                <a href="cadastro.html" class="botao-link">Cadastre-se</a>
-            </div>
-            </form>
+                <input type="text" id="usuario" name="usuario" required >
 
+                <label for="Email">Email</label>
+                <input type="text" id="email" name="email"  required>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha"  required>
+             <div class="buttons">
+                <button type="submit">Cadastrar</button>
+                <a href="index.html" class="botao-link">Logar</a>
+             </div>
+            </form>
          </div>
      </div>
    </main>
